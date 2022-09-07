@@ -22,8 +22,6 @@ function App() {
     }
     return () => window.removeEventListener('scroll', handleScroll);
   }, [dataLimit,pageSkipLimit])
-
-  
   return (
     <div className='container'>
       {
